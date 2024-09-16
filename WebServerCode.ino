@@ -1,7 +1,3 @@
-/*********
-  Rui Santos
-  Complete project details at http://randomnerdtutorials.com  
-*********/
 #define BLYNK_TEMPLATE_ID "TMPL6wqXXT28f"
 #define BLYNK_TEMPLATE_NAME "SmartLab Bin"
 #define BLYNK_AUTH_TOKEN "HVAmF9VNDbWogNeIfe-fgQDqkaVHY-eE"
