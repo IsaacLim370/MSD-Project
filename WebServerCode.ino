@@ -15,8 +15,8 @@
 char auth[] = BLYNK_AUTH_TOKEN;
 
 // Replace with your network credentials
-const char* ssid = "TrashElevator";
-const char* password = "Theydohaveatimeout";
+const char* ssid = "";
+const char* password = "";
 
 BlynkTimer timer;
 WidgetLED led1(V0);
@@ -31,9 +31,6 @@ String header;
 String outputelectronicsState = "off";
 String outputmetalState = "off";
 String outputbatteryState = "off";
-
-// REPLACE WITH YOUR RECEIVER MAC Address
-//uint8_t broadcastAddress[] = {0XCC, 0X7B, 0X5C, 0X25, 0XE1, 0X98};
 
 // Pin Definitions
 const int trigPin = 5;
